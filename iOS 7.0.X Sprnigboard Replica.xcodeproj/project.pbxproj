@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881303D71C94DBAD0070F906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303D61C94DBAD0070F906 /* AppDelegate.swift */; };
+		881303D91C94DBAD0070F906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303D81C94DBAD0070F906 /* ViewController.swift */; };
+		881303DC1C94DBAD0070F906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881303DA1C94DBAD0070F906 /* Main.storyboard */; };
+		881303DF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */; };
+		881303E11C94DBAD0070F906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881303E01C94DBAD0070F906 /* Assets.xcassets */; };
+		881303E41C94DBAD0070F906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881303E21C94DBAD0070F906 /* LaunchScreen.storyboard */; };
+		881303EF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303EE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift */; };
+		881303FA1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303F91C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881303EB1C94DBAD0070F906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881303CB1C94DBAC0070F906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881303D21C94DBAC0070F906;
+			remoteInfo = "iOS 7.0.X Sprnigboard Replica";
+		};
+		881303F61C94DBAD0070F906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881303CB1C94DBAC0070F906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881303D21C94DBAC0070F906;
+			remoteInfo = "iOS 7.0.X Sprnigboard Replica";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		881303D31C94DBAC0070F906 /* iOS 7.0.X Sprnigboard Replica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 7.0.X Sprnigboard Replica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		881303D61C94DBAD0070F906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		881303D81C94DBAD0070F906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		881303DB1C94DBAD0070F906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881303DE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_7_0_X_Sprnigboard_Replica.xcdatamodel; sourceTree = "<group>"; };
+		881303E01C94DBAD0070F906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881303E31C94DBAD0070F906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		881303E51C94DBAD0070F906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881303EA1C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 7.0.X Sprnigboard ReplicaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		881303EE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_7_0_X_Sprnigboard_ReplicaTests.swift; sourceTree = "<group>"; };
+		881303F01C94DBAD0070F906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881303F51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 7.0.X Sprnigboard ReplicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		881303F91C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_7_0_X_Sprnigboard_ReplicaUITests.swift; sourceTree = "<group>"; };
+		881303FB1C94DBAD0070F906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881303D01C94DBAC0070F906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881303E71C94DBAD0070F906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881303F21C94DBAD0070F906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881303CA1C94DBAC0070F906 = {
+			isa = PBXGroup;
+			children = (
+				881303D51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard Replica */,
+				881303ED1C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests */,
+				881303F81C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests */,
+				881303D41C94DBAC0070F906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881303D41C94DBAC0070F906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881303D31C94DBAC0070F906 /* iOS 7.0.X Sprnigboard Replica.app */,
+				881303EA1C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests.xctest */,
+				881303F51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881303D51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard Replica */ = {
+			isa = PBXGroup;
+			children = (
+				881303D61C94DBAD0070F906 /* AppDelegate.swift */,
+				881303D81C94DBAD0070F906 /* ViewController.swift */,
+				881303DA1C94DBAD0070F906 /* Main.storyboard */,
+				881303E01C94DBAD0070F906 /* Assets.xcassets */,
+				881303E21C94DBAD0070F906 /* LaunchScreen.storyboard */,
+				881303E51C94DBAD0070F906 /* Info.plist */,
+				881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */,
+			);
+			path = "iOS 7.0.X Sprnigboard Replica";
+			sourceTree = "<group>";
+		};
+		881303ED1C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				881303EE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift */,
+				881303F01C94DBAD0070F906 /* Info.plist */,
+			);
+			path = "iOS 7.0.X Sprnigboard ReplicaTests";
+			sourceTree = "<group>";
+		};
+		881303F81C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				881303F91C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift */,
+				881303FB1C94DBAD0070F906 /* Info.plist */,
+			);
+			path = "iOS 7.0.X Sprnigboard ReplicaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881303D21C94DBAC0070F906 /* iOS 7.0.X Sprnigboard Replica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881303FE1C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard Replica" */;
+			buildPhases = (
+				881303CF1C94DBAC0070F906 /* Sources */,
+				881303D01C94DBAC0070F906 /* Frameworks */,
+				881303D11C94DBAC0070F906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS 7.0.X Sprnigboard Replica";
+			productName = "iOS 7.0.X Sprnigboard Replica";
+			productReference = 881303D31C94DBAC0070F906 /* iOS 7.0.X Sprnigboard Replica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		881303E91C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881304011C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard ReplicaTests" */;
+			buildPhases = (
+				881303E61C94DBAD0070F906 /* Sources */,
+				881303E71C94DBAD0070F906 /* Frameworks */,
+				881303E81C94DBAD0070F906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881303EC1C94DBAD0070F906 /* PBXTargetDependency */,
+			);
+			name = "iOS 7.0.X Sprnigboard ReplicaTests";
+			productName = "iOS 7.0.X Sprnigboard ReplicaTests";
+			productReference = 881303EA1C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		881303F41C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881304041C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard ReplicaUITests" */;
+			buildPhases = (
+				881303F11C94DBAD0070F906 /* Sources */,
+				881303F21C94DBAD0070F906 /* Frameworks */,
+				881303F31C94DBAD0070F906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881303F71C94DBAD0070F906 /* PBXTargetDependency */,
+			);
+			name = "iOS 7.0.X Sprnigboard ReplicaUITests";
+			productName = "iOS 7.0.X Sprnigboard ReplicaUITests";
+			productReference = 881303F51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881303CB1C94DBAC0070F906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "김준우";
+				TargetAttributes = {
+					881303D21C94DBAC0070F906 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					881303E91C94DBAD0070F906 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 881303D21C94DBAC0070F906;
+					};
+					881303F41C94DBAD0070F906 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 881303D21C94DBAC0070F906;
+					};
+				};
+			};
+			buildConfigurationList = 881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Sprnigboard Replica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881303CA1C94DBAC0070F906;
+			productRefGroup = 881303D41C94DBAC0070F906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881303D21C94DBAC0070F906 /* iOS 7.0.X Sprnigboard Replica */,
+				881303E91C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests */,
+				881303F41C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881303D11C94DBAC0070F906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881303E41C94DBAD0070F906 /* LaunchScreen.storyboard in Resources */,
+				881303E11C94DBAD0070F906 /* Assets.xcassets in Resources */,
+				881303DC1C94DBAD0070F906 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881303E81C94DBAD0070F906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881303F31C94DBAD0070F906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881303CF1C94DBAC0070F906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881303DF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld in Sources */,
+				881303D91C94DBAD0070F906 /* ViewController.swift in Sources */,
+				881303D71C94DBAD0070F906 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881303E61C94DBAD0070F906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881303EF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881303F11C94DBAD0070F906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881303FA1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881303EC1C94DBAD0070F906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881303D21C94DBAC0070F906 /* iOS 7.0.X Sprnigboard Replica */;
+			targetProxy = 881303EB1C94DBAD0070F906 /* PBXContainerItemProxy */;
+		};
+		881303F71C94DBAD0070F906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881303D21C94DBAC0070F906 /* iOS 7.0.X Sprnigboard Replica */;
+			targetProxy = 881303F61C94DBAD0070F906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		881303DA1C94DBAD0070F906 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881303DB1C94DBAD0070F906 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881303E21C94DBAD0070F906 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881303E31C94DBAD0070F906 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881303FC1C94DBAD0070F906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881303FD1C94DBAD0070F906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881303FF1C94DBAD0070F906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard Replica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-Replica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		881304001C94DBAD0070F906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard Replica/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-Replica";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		881304021C94DBAD0070F906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard ReplicaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-ReplicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 7.0.X Sprnigboard Replica.app/iOS 7.0.X Sprnigboard Replica";
+			};
+			name = Debug;
+		};
+		881304031C94DBAD0070F906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard ReplicaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-ReplicaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS 7.0.X Sprnigboard Replica.app/iOS 7.0.X Sprnigboard Replica";
+			};
+			name = Release;
+		};
+		881304051C94DBAD0070F906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard ReplicaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-ReplicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS 7.0.X Sprnigboard Replica";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		881304061C94DBAD0070F906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard ReplicaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-ReplicaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS 7.0.X Sprnigboard Replica";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Sprnigboard Replica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881303FC1C94DBAD0070F906 /* Debug */,
+				881303FD1C94DBAD0070F906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881303FE1C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard Replica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881303FF1C94DBAD0070F906 /* Debug */,
+				881304001C94DBAD0070F906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		881304011C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard ReplicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881304021C94DBAD0070F906 /* Debug */,
+				881304031C94DBAD0070F906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		881304041C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard ReplicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881304051C94DBAD0070F906 /* Debug */,
+				881304061C94DBAD0070F906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				881303DE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodel */,
+			);
+			currentVersion = 881303DE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodel */;
+			path = iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 881303CB1C94DBAC0070F906 /* Project object */;
+}
