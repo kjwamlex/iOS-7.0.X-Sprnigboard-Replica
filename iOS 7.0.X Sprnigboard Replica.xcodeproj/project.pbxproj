@@ -15,6 +15,28 @@
 		881303E41C94DBAD0070F906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881303E21C94DBAD0070F906 /* LaunchScreen.storyboard */; };
 		881303EF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303EE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift */; };
 		881303FA1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303F91C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift */; };
+		8813041D1C94DC350070F906 /* 1444119067_clock_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304071C94DC350070F906 /* 1444119067_clock_ios7_ios_7.png */; };
+		8813041E1C94DC350070F906 /* 1444119144_maps_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304081C94DC350070F906 /* 1444119144_maps_ios7_ios_7.png */; };
+		8813041F1C94DC350070F906 /* 1444119372_stocks_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304091C94DC350070F906 /* 1444119372_stocks_ios7_ios_7.png */; };
+		881304201C94DC350070F906 /* 1444125194_weather_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8813040A1C94DC350070F906 /* 1444125194_weather_ios7_ios_7.png */; };
+		881304211C94DC350070F906 /* 1444125099_videos_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8813040B1C94DC350070F906 /* 1444125099_videos_ios7_ios_7.png */; };
+		881304221C94DC350070F906 /* 1444125277_game_center_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8813040C1C94DC350070F906 /* 1444125277_game_center_ios7_ios_7.png */; };
+		881304231C94DC350070F906 /* 1444120299_calendar_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8813040D1C94DC350070F906 /* 1444120299_calendar_ios7_ios_7.png */; };
+		881304241C94DC350070F906 /* 1444125000_photos_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8813040E1C94DC350070F906 /* 1444125000_photos_ios7_ios_7.png */; };
+		881304251C94DC350070F906 /* 1444125340_notes_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8813040F1C94DC350070F906 /* 1444125340_notes_ios7_ios_7.png */; };
+		881304261C94DC350070F906 /* 1444119279_reminders_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304101C94DC350070F906 /* 1444119279_reminders_ios7_ios_7.png */; };
+		881304271C94DC350070F906 /* 1444125375_itunes_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304111C94DC350070F906 /* 1444125375_itunes_ios7_ios_7.png */; };
+		881304281C94DC350070F906 /* 1456655231_safari_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304121C94DC350070F906 /* 1456655231_safari_ios7_ios_7.png */; };
+		881304291C94DC350070F906 /* 1444126142_compass_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304131C94DC350070F906 /* 1444126142_compass_ios7_ios_7.png */; };
+		8813042A1C94DC350070F906 /* 1444125459_app_store_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304141C94DC350070F906 /* 1444125459_app_store_ios7_ios_7.png */; };
+		8813042B1C94DC350070F906 /* 1444125708_newsstand_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304151C94DC350070F906 /* 1444125708_newsstand_ios7_ios_7.png */; };
+		8813042C1C94DC350070F906 /* dock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881304161C94DC350070F906 /* dock.jpg */; };
+		8813042D1C94DC350070F906 /* 1444125638_messages_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304171C94DC350070F906 /* 1444125638_messages_ios7_ios_7.png */; };
+		8813042E1C94DC350070F906 /* 1444125776_passbook_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304181C94DC350070F906 /* 1444125776_passbook_ios7_ios_7.png */; };
+		8813042F1C94DC350070F906 /* 1444126193_settings_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 881304191C94DC350070F906 /* 1444126193_settings_ios7_ios_7.png */; };
+		881304301C94DC350070F906 /* 1444125681_camera_ios7_ios_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8813041A1C94DC350070F906 /* 1444125681_camera_ios7_ios_7.png */; };
+		881304311C94DC350070F906 /* screen-ip5-harbor-04-tmb-mob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8813041B1C94DC350070F906 /* screen-ip5-harbor-04-tmb-mob.jpg */; };
+		881304321C94DC350070F906 /* grayscale-mode-ios-8-proof-next-iphone-will-sport-amoled-display.w654.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8813041C1C94DC350070F906 /* grayscale-mode-ios-8-proof-next-iphone-will-sport-amoled-display.w654.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +71,28 @@
 		881303F51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 7.0.X Sprnigboard ReplicaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		881303F91C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_7_0_X_Sprnigboard_ReplicaUITests.swift; sourceTree = "<group>"; };
 		881303FB1C94DBAD0070F906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881304071C94DC350070F906 /* 1444119067_clock_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444119067_clock_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304081C94DC350070F906 /* 1444119144_maps_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444119144_maps_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304091C94DC350070F906 /* 1444119372_stocks_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444119372_stocks_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813040A1C94DC350070F906 /* 1444125194_weather_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125194_weather_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813040B1C94DC350070F906 /* 1444125099_videos_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125099_videos_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813040C1C94DC350070F906 /* 1444125277_game_center_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125277_game_center_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813040D1C94DC350070F906 /* 1444120299_calendar_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444120299_calendar_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813040E1C94DC350070F906 /* 1444125000_photos_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125000_photos_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813040F1C94DC350070F906 /* 1444125340_notes_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125340_notes_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304101C94DC350070F906 /* 1444119279_reminders_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444119279_reminders_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304111C94DC350070F906 /* 1444125375_itunes_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125375_itunes_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304121C94DC350070F906 /* 1456655231_safari_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1456655231_safari_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304131C94DC350070F906 /* 1444126142_compass_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444126142_compass_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304141C94DC350070F906 /* 1444125459_app_store_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125459_app_store_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304151C94DC350070F906 /* 1444125708_newsstand_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125708_newsstand_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304161C94DC350070F906 /* dock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dock.jpg; sourceTree = "<group>"; };
+		881304171C94DC350070F906 /* 1444125638_messages_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125638_messages_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304181C94DC350070F906 /* 1444125776_passbook_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125776_passbook_ios7_ios_7.png; sourceTree = "<group>"; };
+		881304191C94DC350070F906 /* 1444126193_settings_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444126193_settings_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813041A1C94DC350070F906 /* 1444125681_camera_ios7_ios_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1444125681_camera_ios7_ios_7.png; sourceTree = "<group>"; };
+		8813041B1C94DC350070F906 /* screen-ip5-harbor-04-tmb-mob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "screen-ip5-harbor-04-tmb-mob.jpg"; sourceTree = "<group>"; };
+		8813041C1C94DC350070F906 /* grayscale-mode-ios-8-proof-next-iphone-will-sport-amoled-display.w654.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grayscale-mode-ios-8-proof-next-iphone-will-sport-amoled-display.w654.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +148,28 @@
 				881303DA1C94DBAD0070F906 /* Main.storyboard */,
 				881303E01C94DBAD0070F906 /* Assets.xcassets */,
 				881303E21C94DBAD0070F906 /* LaunchScreen.storyboard */,
+				881304071C94DC350070F906 /* 1444119067_clock_ios7_ios_7.png */,
+				881304081C94DC350070F906 /* 1444119144_maps_ios7_ios_7.png */,
+				881304091C94DC350070F906 /* 1444119372_stocks_ios7_ios_7.png */,
+				8813040A1C94DC350070F906 /* 1444125194_weather_ios7_ios_7.png */,
+				8813040B1C94DC350070F906 /* 1444125099_videos_ios7_ios_7.png */,
+				8813040C1C94DC350070F906 /* 1444125277_game_center_ios7_ios_7.png */,
+				8813040D1C94DC350070F906 /* 1444120299_calendar_ios7_ios_7.png */,
+				8813040E1C94DC350070F906 /* 1444125000_photos_ios7_ios_7.png */,
+				8813040F1C94DC350070F906 /* 1444125340_notes_ios7_ios_7.png */,
+				881304101C94DC350070F906 /* 1444119279_reminders_ios7_ios_7.png */,
+				881304111C94DC350070F906 /* 1444125375_itunes_ios7_ios_7.png */,
+				881304121C94DC350070F906 /* 1456655231_safari_ios7_ios_7.png */,
+				881304131C94DC350070F906 /* 1444126142_compass_ios7_ios_7.png */,
+				881304141C94DC350070F906 /* 1444125459_app_store_ios7_ios_7.png */,
+				881304151C94DC350070F906 /* 1444125708_newsstand_ios7_ios_7.png */,
+				881304161C94DC350070F906 /* dock.jpg */,
+				881304171C94DC350070F906 /* 1444125638_messages_ios7_ios_7.png */,
+				881304181C94DC350070F906 /* 1444125776_passbook_ios7_ios_7.png */,
+				881304191C94DC350070F906 /* 1444126193_settings_ios7_ios_7.png */,
+				8813041A1C94DC350070F906 /* 1444125681_camera_ios7_ios_7.png */,
+				8813041B1C94DC350070F906 /* screen-ip5-harbor-04-tmb-mob.jpg */,
+				8813041C1C94DC350070F906 /* grayscale-mode-ios-8-proof-next-iphone-will-sport-amoled-display.w654.jpg */,
 				881303E51C94DBAD0070F906 /* Info.plist */,
 				881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */,
 			);
@@ -232,9 +298,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881304211C94DC350070F906 /* 1444125099_videos_ios7_ios_7.png in Resources */,
 				881303E41C94DBAD0070F906 /* LaunchScreen.storyboard in Resources */,
+				881304271C94DC350070F906 /* 1444125375_itunes_ios7_ios_7.png in Resources */,
+				8813042D1C94DC350070F906 /* 1444125638_messages_ios7_ios_7.png in Resources */,
+				881304201C94DC350070F906 /* 1444125194_weather_ios7_ios_7.png in Resources */,
+				8813041E1C94DC350070F906 /* 1444119144_maps_ios7_ios_7.png in Resources */,
+				881304291C94DC350070F906 /* 1444126142_compass_ios7_ios_7.png in Resources */,
+				881304221C94DC350070F906 /* 1444125277_game_center_ios7_ios_7.png in Resources */,
+				8813042E1C94DC350070F906 /* 1444125776_passbook_ios7_ios_7.png in Resources */,
+				8813042C1C94DC350070F906 /* dock.jpg in Resources */,
+				881304311C94DC350070F906 /* screen-ip5-harbor-04-tmb-mob.jpg in Resources */,
+				8813041F1C94DC350070F906 /* 1444119372_stocks_ios7_ios_7.png in Resources */,
 				881303E11C94DBAD0070F906 /* Assets.xcassets in Resources */,
+				881304251C94DC350070F906 /* 1444125340_notes_ios7_ios_7.png in Resources */,
+				8813042F1C94DC350070F906 /* 1444126193_settings_ios7_ios_7.png in Resources */,
+				8813042A1C94DC350070F906 /* 1444125459_app_store_ios7_ios_7.png in Resources */,
+				881304301C94DC350070F906 /* 1444125681_camera_ios7_ios_7.png in Resources */,
+				881304321C94DC350070F906 /* grayscale-mode-ios-8-proof-next-iphone-will-sport-amoled-display.w654.jpg in Resources */,
+				881304261C94DC350070F906 /* 1444119279_reminders_ios7_ios_7.png in Resources */,
+				881304281C94DC350070F906 /* 1456655231_safari_ios7_ios_7.png in Resources */,
 				881303DC1C94DBAD0070F906 /* Main.storyboard in Resources */,
+				881304241C94DC350070F906 /* 1444125000_photos_ios7_ios_7.png in Resources */,
+				8813041D1C94DC350070F906 /* 1444119067_clock_ios7_ios_7.png in Resources */,
+				881304231C94DC350070F906 /* 1444120299_calendar_ios7_ios_7.png in Resources */,
+				8813042B1C94DC350070F906 /* 1444125708_newsstand_ios7_ios_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
