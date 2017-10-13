@@ -493,6 +493,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-Replica";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -504,6 +505,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-Replica";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -574,6 +576,7 @@
 				881304001C94DBAD0070F906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		881304011C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard ReplicaTests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +585,7 @@
 				881304031C94DBAD0070F906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		881304041C94DBAD0070F906 /* Build configuration list for PBXNativeTarget "iOS 7.0.X Sprnigboard ReplicaUITests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +594,7 @@
 				881304061C94DBAD0070F906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
