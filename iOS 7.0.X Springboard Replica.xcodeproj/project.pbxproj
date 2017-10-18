@@ -273,7 +273,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Sprnigboard Replica" */;
+			buildConfigurationList = 881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Springboard Replica" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Sprnigboard Replica" */ = {
+		881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Springboard Replica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				881303FC1C94DBAD0070F906 /* Debug */,
