@@ -1,1 +1,1 @@
-# iOS-7.0.X-Sprnigboard-Replica
+# iOS-7.0.X-Springboard-Replica

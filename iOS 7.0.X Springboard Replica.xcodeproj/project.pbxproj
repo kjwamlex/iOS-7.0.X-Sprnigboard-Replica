@@ -123,9 +123,9 @@
 		881303CA1C94DBAC0070F906 = {
 			isa = PBXGroup;
 			children = (
-				881303D51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard Replica */,
-				881303ED1C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests */,
-				881303F81C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests */,
+				881303D51C94DBAD0070F906 /* iOS 7.0.X Springboard Replica */,
+				881303ED1C94DBAD0070F906 /* iOS 7.0.X Springboard ReplicaTests */,
+				881303F81C94DBAD0070F906 /* iOS 7.0.X Springboard ReplicaUITests */,
 				881303D41C94DBAC0070F906 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		881303D51C94DBAD0070F906 /* iOS 7.0.X Sprnigboard Replica */ = {
+		881303D51C94DBAD0070F906 /* iOS 7.0.X Springboard Replica */ = {
 			isa = PBXGroup;
 			children = (
 				881303D61C94DBAD0070F906 /* AppDelegate.swift */,
@@ -173,25 +173,25 @@
 				881303E51C94DBAD0070F906 /* Info.plist */,
 				881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */,
 			);
-			path = "iOS 7.0.X Sprnigboard Replica";
+			path = "iOS 7.0.X Springboard Replica";
 			sourceTree = "<group>";
 		};
-		881303ED1C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaTests */ = {
+		881303ED1C94DBAD0070F906 /* iOS 7.0.X Springboard ReplicaTests */ = {
 			isa = PBXGroup;
 			children = (
 				881303EE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift */,
 				881303F01C94DBAD0070F906 /* Info.plist */,
 			);
-			path = "iOS 7.0.X Sprnigboard ReplicaTests";
+			path = "iOS 7.0.X Springboard ReplicaTests";
 			sourceTree = "<group>";
 		};
-		881303F81C94DBAD0070F906 /* iOS 7.0.X Sprnigboard ReplicaUITests */ = {
+		881303F81C94DBAD0070F906 /* iOS 7.0.X Springboard ReplicaUITests */ = {
 			isa = PBXGroup;
 			children = (
 				881303F91C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaUITests.swift */,
 				881303FB1C94DBAD0070F906 /* Info.plist */,
 			);
-			path = "iOS 7.0.X Sprnigboard ReplicaUITests";
+			path = "iOS 7.0.X Springboard ReplicaUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +273,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Sprnigboard Replica" */;
+			buildConfigurationList = 881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Springboard Replica" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -560,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Sprnigboard Replica" */ = {
+		881303CE1C94DBAC0070F906 /* Build configuration list for PBXProject "iOS 7.0.X Springboard Replica" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				881303FC1C94DBAD0070F906 /* Debug */,
