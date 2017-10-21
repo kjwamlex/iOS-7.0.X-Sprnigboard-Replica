@@ -10,7 +10,6 @@
 		881303D71C94DBAD0070F906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303D61C94DBAD0070F906 /* AppDelegate.swift */; };
 		881303D91C94DBAD0070F906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303D81C94DBAD0070F906 /* ViewController.swift */; };
 		881303DC1C94DBAD0070F906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881303DA1C94DBAD0070F906 /* Main.storyboard */; };
-		881303DF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */; };
 		881303E11C94DBAD0070F906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881303E01C94DBAD0070F906 /* Assets.xcassets */; };
 		881303E41C94DBAD0070F906 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881303E21C94DBAD0070F906 /* LaunchScreen.storyboard */; };
 		881303EF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881303EE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_ReplicaTests.swift */; };
@@ -61,7 +60,6 @@
 		881303D61C94DBAD0070F906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		881303D81C94DBAD0070F906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		881303DB1C94DBAD0070F906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		881303DE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_7_0_X_Sprnigboard_Replica.xcdatamodel; sourceTree = "<group>"; };
 		881303E01C94DBAD0070F906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881303E31C94DBAD0070F906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		881303E51C94DBAD0070F906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 				8813041B1C94DC350070F906 /* screen-ip5-harbor-04-tmb-mob.jpg */,
 				8813041C1C94DC350070F906 /* grayscale-mode-ios-8-proof-next-iphone-will-sport-amoled-display.w654.jpg */,
 				881303E51C94DBAD0070F906 /* Info.plist */,
-				881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */,
 			);
 			path = "iOS 7.0.X Springboard Replica";
 			sourceTree = "<group>";
@@ -262,6 +259,7 @@
 				TargetAttributes = {
 					881303D21C94DBAC0070F906 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7TR28E27K7;
 					};
 					881303E91C94DBAD0070F906 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -347,7 +345,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				881303DF1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld in Sources */,
 				881303D91C94DBAD0070F906 /* ViewController.swift in Sources */,
 				881303D71C94DBAD0070F906 /* AppDelegate.swift in Sources */,
 			);
@@ -489,7 +486,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard Replica/Info.plist";
+				DEVELOPMENT_TEAM = 7TR28E27K7;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS 7.0.X Springboard Replica/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-Replica";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +499,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "iOS 7.0.X Sprnigboard Replica/Info.plist";
+				DEVELOPMENT_TEAM = 7TR28E27K7;
+				INFOPLIST_FILE = "$(SRCROOT)/iOS 7.0.X Springboard Replica/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Joonwoo.iOS-7-0-X-Sprnigboard-Replica";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -597,19 +596,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		881303DD1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				881303DE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodel */,
-			);
-			currentVersion = 881303DE1C94DBAD0070F906 /* iOS_7_0_X_Sprnigboard_Replica.xcdatamodel */;
-			path = iOS_7_0_X_Sprnigboard_Replica.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 881303CB1C94DBAC0070F906 /* Project object */;
 }
